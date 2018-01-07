@@ -1,0 +1,5 @@
+CREATE USER 'pswot'@'localhost' IDENTIFIED BY 'pswot';
+GRANT ALL PRIVILEGES ON *.* TO 'pswot'@'localhost' WITH GRANT OPTION;
+CREATE USER 'pswot'@'%' IDENTIFIED BY 'pswot';
+GRANT ALL PRIVILEGES ON *.* TO 'pswot'@'%' WITH GRANT OPTION;
+
